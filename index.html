@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="/"><img class="header-logo" src="./assets/img/logo_header.png" alt="logo"></a>
+            <nav class="menu-top">
+                <ul class="header-lists">
+                    <li><a href="#summary" class="header-list">Summary</a></li>
+                    <li><a href="#education" class="header-list">Education</a></li>
+                    <li><a href="#experience" class="header-list">Experience</a></li>
+                    <li><a href="#code" class="header-list">Code</a></li>
+                    <li><a href="#skills" class="header-list">Skills</a></li>
+                    <li><a href="#english" class="header-list">English knowledge</a></li>
+                    <li><a href="#contacts" class="header-list">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <aside class="sidebar">
+                <img class="sidebar-photo" src="./assets/img/photo.webp" alt="Photo">
+                <h1 class="title-first">Tatiana Nikonova</h1>
+                <h2 id="contacts" class="title-second">Contacts</h2>
+                <ul class="sidebar-contacts">
+                    <li>Email:&nbsp;<a href="" class="sidebar-contacts-link">tilkka@mail.ru</a></li>
+                    <li>Telegram:&nbsp;<a href="" class="sidebar-contacts-link"></a>@imyakhoroshee</li>
+                    <li>Discord:&nbsp;<a href="" class="sidebar-contacts-link"></a>@imyakhoroshee</li>
+                </ul>
+                <h2 id="skills" class="title-second">Skills</h2>
+                <ul class="list-skills">
+                    <li>C#, Python, Java (Fundamentals)</li>
+                    <li>Git/GitHub</li>
+                    <li>VS Code (Actively)</li>
+                    <li>Web Storm (Shortly)</li>
+                    <li>OOP on Java (Fundamentals)</li>
+                    <li>MySQL Workbench (Basic commands)</li>
+                </ul>
+                <h2 class="title-second">English knowledge</h2>
+                <p id="english" class="paragraph">B2</p>
+            </aside>
+            <section class="about-me-content">
+                <h2 id="summary" class="title-second">Summary</h2>
+                <p class="paragraph">I&nbsp;am a&nbsp;future Junior Frontend Developer. I&nbsp;am studing at&nbsp;the
+                    RSS School
+                    at&nbsp;Stage 0&nbsp;now. My&nbsp;6&nbsp;months goal is&nbsp;to&nbsp;improve my&nbsp;knowledge
+                    of&nbsp;HTML and CSS and start delving into Java Script. I&nbsp;am sociable, hardworking and&nbsp;I
+                    have a&nbsp;clear understanding of&nbsp;what&nbsp;I need to&nbsp;do&nbsp;in&nbsp;order
+                    to&nbsp;achieve my&nbsp;goal.
+                </p>
+                <h2 id="education" class="title-second">Education</h2>
+                <ul class="list-education">
+                    <li>RSS. Stage 0 (in progress)</li>
+                    <li>HTML Academy (in progress)</li>
+                    <li>Course Developer (in progress)</li>
+                    <li>English translator (higher)</li>
+                </ul>
+                <h2 id="experience" class="title-second">Experience</h2>
+                <ul class="list-experience">
+                    <li>Team work on the Calculator project (<a
+                            href="https://github.com/ImyaKhoroshee/Study_Projects_Echo)">here</a>)</li>
+                    <li>Solution of algorithmic tasks in several languages in the frame of study (<a
+                            href="https://github.com/ImyaKhoroshee?tab=repositories">here</a>)</li>
+                    <li>Taking part in the Front-end intensive (<a
+                            href="https://github.com/ImyaKhoroshee/cars-hw">here</a>)</li>
+                </ul>
+                <h2 id="code" class="title-second">Code from Codewars</h2>
+                <pre class="code">
+    function findAverage(array) {
+        let sum = 0;
+            if (array.length === 0) {return 0;}
+            else {
+                array.forEach(function(item, index, array) {
+                sum+=item;
+                });
+            }
+        return sum/array.length;
+    }
+                </pre>
+                <p class="paragraph">More codes in my&nbsp;<a
+                        href="https://github.com/ImyaKhoroshee?tab=repositories">GitHub
+                        repositories</a>
+                </p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="github"><a id="github-link" href="https://github.com/ImyaKhoroshee">&#169;&nbsp;All rigts reserved
+                    | My GitHub</a> | Published in 2022 | <a href="https://rs.school/js/"><img id="logo-footer-rss"
+                        src="./assets/img/rss_logo.png" alt="logo-footer"></a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
