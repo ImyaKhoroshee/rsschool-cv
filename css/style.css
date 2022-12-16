@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+    display: grid;
+    grid-template: minmax(80px, auto) minmax(80px, auto) / 1fr;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+    
+.header {
+    grid-area: header;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #333333;
+    display: grid;
+    align-items: center;
+    text-align: left;
+    background: url(../assets/img/images.jpg);
+    grid-template: 1fr / minmax(auto, 400px) minmax(auto, 800px);
+  }
+
+.header-logo {
+    padding-left: 10%;
+  }
+
+.header-lists {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+}
+
+.main {
+    grid-area: main;
+    grid-column: 1 / 4;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px 10px;
+    margin: auto;
+    display: grid;
+    grid-template: 1fr / minmax(auto, 500px) minmax(auto, 800px);
+}
+
+.sidebar {
+    display: grid;
+    border-radius: 10px;
+    background: url(../assets/img/images.jpg);
+    box-shadow: 0 0 5px 0 #333333;
+    grid-column: 1/2;
+    padding: 20px 20px;
+}
+
+.sidebar-photo {
+    width: 350px;
+    justify-self: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #333333;
+}
+
+.about-me-content {
+    border-radius: 10px;
+    background: url(../assets/img/images.jpg);
+    box-shadow: 0 0 5px 0 #333333;
+    grid-column: 2/4;
+    padding: 20px 20px;
+}
+
+.title-first {
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+    color: rgb(240, 55, 104);
+    text-align: center;
+}
+
+.title-second {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 18px;
+}
+
+.code {
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(140, 56, 56);
+}
+
+.list-skills, .sidebar-contacts, .list-experience, .list-education {
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    list-style-position: inside;
+    margin-bottom: 16px;
+}
+
+.footer {
+	font-family: 'Pacifico', cursive;
+    background: url(../assets/img/images.jpg);
+    grid-area: footer;
+    margin: 10px 10px;
+    display: grid;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #333333;
+    padding: 20px 20px;
+    grid-template: 1fr / minmax(auto, 500px) minmax(auto, 800px);
+}
+
+#github-link {
+    color: #000;
+}
+
+.github {
+    grid-column: 1 / 4;
+    margin: auto;
+}
+
+#logo-footer-rss {
+    border-radius: 50%;
+}
