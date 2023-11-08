@@ -37,6 +37,8 @@ function isIsogram(str) {
 - [Insects Squash Game](http://n92140rj.beget.tech/)
 - [Taking part in the Front-end intensive](https://imyakhoroshee.github.io/cars-hw/)
 - [Audio-player](https://rolling-scopes-school.github.io/imyakhoroshee-JSFEPRESCHOOL2023Q2/audio-player/)
+- [Shop Project](https://imyakhoroshee.github.io/The-brand/)
+- [Сommercial experience](https://xn--80aaehedgbnfqivhji4g7c3h.xn--p1ai/)
 
 ## Education
 
@@ -44,7 +46,7 @@ English translator. Nevsky Institute of Language and Culture
 
 ## Сourses
 
-- RSS. Stage 0
+- [RSS. Stage 0](https://rs.school/js-stage0/)
 - Frontend Developer Course (in progress)
 - [Self-study](https://learn.javascript.ru/)
 
