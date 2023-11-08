@@ -14,6 +14,7 @@ I am a future Junior Front-end Developer. I graduated from the RS School, Stage 
 - HTML
 - CSS
 - JS
+- BEM
 - SASS
 - Vue 3
 - Git/GitHub
@@ -29,3 +30,25 @@ function isIsogram(str) {
   return str.length === set.size;
 }
 ```
+
+## Experience
+
+- [Team work on the Calculator project](https://github.com/ImyaKhoroshee/Study_Projects_Echo)
+- [Insects Squash Game](http://n92140rj.beget.tech/)
+- [Taking part in the Front-end intensive](https://imyakhoroshee.github.io/cars-hw/)
+- [Audio-player](https://rolling-scopes-school.github.io/imyakhoroshee-JSFEPRESCHOOL2023Q2/audio-player/)
+
+## Education
+
+English translator. Nevsky Institute of Language and Culture
+
+## Сourses
+
+- RSS. Stage 0
+- Frontend Developer Course (in progress)
+- [Self-study](https://learn.javascript.ru/)
+
+## English knowledge
+
+- C1
+
